@@ -1,0 +1,131 @@
+/* CSS INICIALES */
+@font-face {
+    font-family: OpenSans-VariableFont;
+    src: url(../fuente/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Italic;
+    src: url(../fuente/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+
+/* Variables de colores y fuentes */
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --primario: #8D7B68;
+    --secundario: #D8CAB9;
+    --amarillo: #D4A017;
+}
+
+
+
+/* ************************************* CÓDIGO ACÁ********************************** */
+.titulo{
+    font-family: OpenSans-Italic;
+}
+.texto{
+    font-family: OpenSans-VariableFont;
+}
+
+.logo{
+    font-family: OpenSans-Italic;
+    font-weight: 600;
+    color: var(--primario);
+    
+
+}
+.menu-activado{
+    color: var(--primario);
+    font-family: OpenSans-VariableFont;
+    font-weight: 500;
+    font-family: ;
+    
+
+}
+.menu-desactivado{
+    color: var(--negro);
+    font-family: OpenSans-VariableFont;
+    font-weight: 500;
+    
+
+}
+
+.colorb {
+    background-color: #8d7b68a1;
+}
+
+.fondo {
+    height: 45vh;
+    background-image: url("../imagenes/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo__hero {
+    font-family: OpenSans-Italic;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.texto__hero {
+    color: white;
+    font-family: OpenSans-VariableFont;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+
+
+}
+.btn-prod{
+    background-color:#8D7B68; 
+    border-color: #8D7B68;
+}
+.btn-bg{
+    background-color: #8d7b68b9;
+    border-color: #8D7B68;
+}
+.btn-primario{
+    background-color: #8d7b6875;
+    border-color: #8d7b6875 ;
+}
+.subti-sim{
+   font-family:OpenSans-VariableFont ;
+   font-weight: 500;
+}
+.text-sim{
+    font-family: OpenSans-VariableFont;
+    font-weight: 400;
+}
+.primario{
+    color: var(--primario);
+}
+.bg-primario{
+    background-color: var(--primario);
+}
+.secundario{
+    color: var(--secundario);
+}
+.bg-secundario{
+    background-color: var(--secundario);
+}
+.amarillo{
+    color: var(--amarillo);
+}
+.bg-amarillo{
+    background-color: var(--amarillo);
+}
+.w-footer{
+    height: 300px;
+}
+
+.whats{
+    width: 60px;
+    position: fixed;
+}
+.whats:hover{
+    cursor: pointer;
+   
+}

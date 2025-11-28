@@ -1,0 +1,75 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --azul: #2c3e50;
+    --rosa: rgb(207, 136, 136);
+    --titulo: "Nunito Sans", sans-serif;
+    --texto: "Quicksand", sans-serif;
+    --gris: rgb(185, 184, 184);
+
+
+
+}
+
+
+.text-azul {
+    color: var(--azul);
+}
+
+.bg-azul {
+    background-color: var(--azul);
+}
+
+.btn-rosa {
+    background-color: var(--rosa);
+}
+
+.text-rosa {
+    color: var(--rosa);
+}
+
+.bg-rosa {
+    background-color: var(--rosa);
+}
+
+.titulo {
+    font-family: var(--titulo);
+}
+
+.titulo1 {
+    font-family: var(--titulo);
+    font-weight: 800;
+}
+
+.texto {
+    font-family: var(--texto);
+}
+
+.tam-ava {
+    height: 200px;
+    width: 200px;
+}
+
+.icon-divisor {
+    margin: 20px 0 24px;
+}
+
+.line {
+    max-width: 200px;
+    width: 100%;
+
+
+}
+
+.btn {
+    background-color: var(--rosa);
+    color: #fff;
+}
+
+.fot {
+    background-color: #052b50;
+}

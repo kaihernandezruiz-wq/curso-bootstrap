@@ -1,0 +1,33 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root{
+    --negro:#000;
+    --blanco:#fff;
+    --beige:beige;
+    --bur:burlywood;
+    --celeste:rgb(219, 236, 247);
+    --azul:navy;
+
+ }
+.bg-beige{
+    background-color: var(--beige);
+}
+.bg-bur{
+    background-color:var(--bur) ;
+}
+
+.azul{
+    color: var(--azul);
+}
+.bg-azul{
+    background-color: var(--azul);
+}
+
+.bg-contmodal{
+    background: linear-gradient(90deg,rgba(160, 155, 235, 1) 0%, rgba(119, 119, 242, 1) 52%, rgba(0, 212, 255, 1) 100%);
+
+}
+.celeste{
+    background-color: var(--celeste);
+}

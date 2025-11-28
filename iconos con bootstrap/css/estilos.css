@@ -1,0 +1,11 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --rosa: rgb(207, 136, 136);
+}
+.btn-rosa{
+    background-color: var(--rosa);
+}

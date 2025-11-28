@@ -1,0 +1,12 @@
+:root{
+    --negro:#000;
+    --blanco:#fff;
+    --celeste:rgb(219, 236, 247);
+    --azul:navy;
+}
+.azul{
+    color: var(--azul);
+}
+.bg-azul{
+    background-color: var(--azul);
+}
