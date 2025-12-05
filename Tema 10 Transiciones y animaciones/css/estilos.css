@@ -1,0 +1,40 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+/* *********** CSS de transition *********************se disuelve el color************** */
+/* .fondo-animado{
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: lavender;
+    border: 3px solid blue;
+    transition: background-color 2s ease-out 2s;
+}
+.fondo-animado:hover{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+} */
+
+/* *************CSS de keyframe**************animacion**************** */
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color:cadetblue;
+    border-radius: 50%;
+    margin: 0 auto;
+    position:relative  ;
+    animation: cambiacolor 2.5s ease infinite;
+}
+
+@keyframes cambiacolor {
+    0%{ background-color: rgb(194, 116, 181); top: 110px;}
+    20%{background-color: rgb(223, 214, 89); top: 240px;}
+    50%{background-color: rgb(143, 72, 209); top: 480px ;}
+    75%{background-color: darkblue; top: 750px;}
+    100%{background-color: cornflowerblue; top: 130px;}
+    
+}
