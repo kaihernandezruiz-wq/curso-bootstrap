@@ -1,0 +1,50 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+
+/* ********************* */
+.figura {
+    width: 200px;
+    height: 200px;
+    background: #4c8baf;
+    border: 2px #000;
+    margin: 0 auto;
+    animation: formas 1.5s infinite alternate ease-in-out;
+    position: relative;
+}
+
+/* *********practica con IA************ */
+
+/* Animación de cuadrado → círculo → hexágono */
+@keyframes formas {
+  /* 1️⃣ Cuadrado */
+  0% {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%
+    );
+    border-radius: 0%;
+    top: 150px;
+  }
+
+  /* 3️⃣ Hexágono */
+  100% {
+    clip-path: polygon(
+      25% 0%,
+      75% 0%,
+      100% 50%,
+      75% 100%,
+      25% 100%,
+      0% 50%
+    );
+    border-radius: 0%;
+    background-color: rgb(156, 199, 248);
+    top: 300px;
+  }
+}
