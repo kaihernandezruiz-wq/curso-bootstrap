@@ -1,0 +1,67 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+
+.titulo{
+    font-size: 100px;
+    color: rgb(202, 157, 164);
+    font-weight: bolder;
+    text-align: center;
+}
+.subtitulo{
+    font-size: 50px;
+    color: rgb(212, 119, 150);
+    text-shadow: 3px 3px 30px rgb(214, 139, 164);
+    text-align: center;
+
+}
+.imagen{
+    border: 5px solid rgb(214, 139, 164);
+    border-radius: 10px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+
+}
+.hijo{
+    margin-top: 30px;
+}
+.desenfoque{
+    filter: blur(3px);
+}
+.grises{
+    filter: grayscale(100%);
+}
+.invertir{
+    filter: invert(100%);
+}
+.tonosepia{
+    filter: sepia(100%);
+}
+.rotacion{
+    filter: hue-rotate(45deg);
+}
+.brillo{
+    filter: brightness(70%);
+}
+.contraste{
+    filter: contrast(200%);
+}
+.saturacion{
+    filter: saturate(300%);
+}
+.multiples{
+    filter: saturate(150%) blur(1px);
+}
+
+
+

@@ -1,0 +1,32 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+.cont{
+    margin: 50px;
+}
+
+.contenedor{
+    margin: 30px auto;
+    width: 700px;
+    height: 500px;
+    background-color: papayawhip;
+}
+.titulo{
+    font-size: 100px;
+    font-weight: bolder;
+    color: rgb(179, 127, 179);
+    text-align: center;
+}
+.subtitulo{
+    font-size: 50px;
+    color: purple;
+    text-shadow: 3px 3px 30px plum;
+    text-align: center;
+}
+.imagen{
+    object-fit: cover;
+}
