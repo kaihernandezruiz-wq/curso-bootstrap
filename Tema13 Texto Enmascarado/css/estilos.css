@@ -1,0 +1,21 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+:root {
+    --negro: #000;
+    --blanco: #fff;
+    --titulo: "Titan One", sans-serif;
+}
+
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 200px;
+    font-family: var(--titulo);
+    background-image: url(../imagenes/imagen\ degradado.png)  ;
+    background-size: 200px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
