@@ -1,0 +1,142 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+
+.container {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.titulo {
+    font-size: 50px;
+    font-style: italic;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+
+}
+
+p {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.caja1 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+/* ******************************* */
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja2:hover {
+    transform: translateX(100px);
+    transition: 2s;
+}
+
+/* ******************************* */
+.caja3 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja3:hover {
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+/* ******************************* */
+.caja4 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja4:hover {
+    transform: rotatex(360deg);
+    transition: 2s;
+
+}
+
+.caja42 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja42:hover {
+    transform: rotatey(360deg);
+    transition: 2s;
+
+}
+
+/* ******************************* */
+.caja5 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja5:hover {
+    transform: scalex(1.5);
+    transition: 2s;
+
+}
+
+.caja52:hover {
+    transform: scaley(1.5);
+    transition: 2s;
+
+
+}
+
+.caja523:hover {
+    transform: scale(1.5);
+    transition: 2s;
+
+}
+
+/* ******************************* */
+.caja6 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 50px auto;
+    outline: 10px solid black;
+    outline-offset: 10px;
+}
+
+.caja6:hover {
+    transform: skew(180deg);
+    transition: 2s;
+
+}
