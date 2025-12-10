@@ -1,0 +1,52 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+img{
+    width: 600px;
+    height: 500px;
+    margin: 50px auto;
+}
+.verde{
+    color: green;
+}
+.rojo{
+    color: red;
+}
+/* el ultimo prevalece */
+#verde{
+    color:green;
+}
+
+
+
+.verde:hover{
+    color: green;
+}
+section .rojo:hover{ /* este pesa mas */
+    color: red;
+}
+
+#rosa{
+    color: pink;
+}
+#rosa:hover{
+    color: pink
+}
+:is(.naranja #rosa){
+    color: orange;
+}
+.naranja{
+    color: orange;
+}
+
+
+.caja:where(h5,span){
+    color: green;
+}
+.morado{
+    color: purple;
+}
