@@ -1,0 +1,32 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+.contemedor{
+    width: 50vw;
+    margin: auto;
+    margin-top: 20px;
+}
+
+details>summary{
+    font-size: 20px;
+    background-color: rgb(248, 231, 234);
+    color: rgb(146, 49, 97);
+    padding: 10px;
+    border: 2px solid darkblue;
+
+}
+details>summary:hover{
+    background-color: aliceblue;
+    color: darkblue;
+}
+details[open]{
+    background-color: dodgerblue;
+    color: aliceblue;
+}
+details>summary[open]{
+    
+}
