@@ -1,0 +1,16 @@
+/* CSS INICIALES */
+/* Variables de colores y fuentes */
+
+:root {
+    --negro: #000;
+    --blanco: #fff;
+}
+
+.caja_fragmento{
+width: 50vw;
+height: 50vh;
+background-color: aliceblue;
+border: rgb(10, 10, 83) 5px solid;
+margin: 0 auto;
+margin-top: 20px;
+}
